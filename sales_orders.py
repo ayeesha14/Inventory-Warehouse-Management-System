@@ -1,5 +1,5 @@
-from app.database import get_connection
-from app.stock import update_stock
+from database import get_connection
+from stock import update_stock
 
 
 def create_sales_order(
