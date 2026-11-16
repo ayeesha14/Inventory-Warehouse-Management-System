@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-
+API_URL = "https://inventory-warehouse-management-system-5.onrender.com"
 
 # --------------------------------------------------
 # SETTINGS
