@@ -1,15 +1,17 @@
+
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
-from app.database import create_tables
+from database import create_tables
 
-import app.auth as auth
-import app.products as products
-import app.warehouses as warehouses
-import app.stock as stock
-import app.purchase_orders as purchase_orders
-import app.sales_orders as sales_orders
-import app.notifications as notifications
+import auth
+import products
+import warehouses
+import stock
+import purchase_orders
+import sales_orders
+import notifications
+
 
 
 app = FastAPI(
