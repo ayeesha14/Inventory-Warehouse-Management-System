@@ -1,13 +1,9 @@
+
 import streamlit as st
 import requests
+
+# Backend API URL
 API_URL = "https://inventory-warehouse-management-system-5.onrender.com"
-
-# --------------------------------------------------
-# SETTINGS
-# --------------------------------------------------
-
-API_URL = "http://127.0.0.1:8000"
-
 
 # --------------------------------------------------
 # SESSION STATE
